@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'DM Sans' sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.hero {
+  padding-bottom: 160px;
+  background: white;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 140px;
+  display: inline-flex;
+}
+
+.navbar {
+  height: 98px;
+  padding: 18px 98px 18px 98px;
+  background: white;
+  border-bottom: 0.5px #dee5ed solid;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+  display: inline-flex;
+}
+.logo {
+  width: 30%;
+}
+.logo img {
+  width: 50%;
+}
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 48px;
+}
+.navigation p {
+  text-align: center;
+  color: #8378c6;
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+}
+.btn {
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.signupBtn {
+  color: white;
+  padding: 12px 20px 12px 20px;
+  background-color: #8378c6;
+  border: 0.5px #8378c6 solid;
+}
+.signupBtn:hover {
+  background-color: #756bb3;
+}
+.main {
+  align-items: center;
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+}
+.main img {
+  border-radius: 12px;
+}
+.main-textbox {
+  width: 55%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+}
+.subheading {
+  color: #8378c6;
+  font-size: 36px;
+  font-family: DM Sans;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+}
+
+.text {
+  width: 612px;
+  color: #2d2d2d;
+  font-size: 20px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+}
+.buttons {
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+}
+.loginBtn {
+  background-color: #8378c6;
+  padding: 16px 32px 16px 32px;
+  border: 0.5px #8378c6 solid;
+  color: white;
+}
+.loginBtn:hover {
+  background-color: #756bb3;
+}
+.downloadBtn {
+  color: #8378c6;
+  border: 0.5px #8378c6 solid;
+  padding: 16px 32px 16px 32px;
+  background-color: white;
+}
+.downloadBtn:hover {
+  background-color: #f8f9fa;
+}
+.learn-more {
+  padding: 120px 0;
+  background: #d5cbec;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.content {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  display: flex;
+  max-width: 60%;
+}
+.learn-more .subheading {
+  text-align: center;
+  font-size: 44px;
+}
+.learn-more .text {
+  text-align: center;
+}
+.donateBtn {
+  background-color: #8378c6;
+  padding: 16px 32px 16px 32px;
+  border: 0.5px #8378c6 solid;
+  color: white;
+}
+.donateBtn:hover {
+  background-color: #756bb3;
+}
+.goal {
+  margin: 0 auto;
+  padding: 120px 0;
+  width: 85%;
+  background: white;
+  position: relative;
+}
+.goal img {
+  position: absolute;
+  top: 110px;
+  left: 40px;
+}
+.quote-text {
+  text-align: center;
+  color: #463c81;
+  font-size: 36px;
+  font-family: DM Sans;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.footer {
+  width: 1440px;
+  height: 356px;
+  left: 0px;
+  top: 1565px;
+  position: absolute;
+  background: #d5cbec;
+}
+
+.footer-try {
+  background: #d5cbec;
+  font-family: 'DM Sans';
+  padding: 80px 100px 50px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.footer-cols {
+  display: flex;
+  gap: 100px;
+}
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer-text,
+.footer-heading {
+  color: #2d2d2d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+.footer-heading {
+  font-weight: 600;
+}
+
+.footer-icons img {
+  width: 48px;
+  height: 48px;
+}
+
+.footer-copyright {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-self: center;
+}
+.footer-copyright .footer-heading {
+  font-size: 20px;
+}
